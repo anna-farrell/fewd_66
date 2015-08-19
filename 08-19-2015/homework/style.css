@@ -1,0 +1,38 @@
+body{
+	background-color:#E0F2F1;
+	border-style: black;
+	border-style: dashed;
+    border-width: 5px;
+    padding: 20px;
+    font-family: 'Open Sans';
+    margin:20px;
+    font-size: 10pt
+}
+h3{
+	font-weight:bold;
+	font-size: 12pt;
+	margin:0px;
+}
+ul{
+	list-style-type: circle;
+	font-size: 10pt;
+    padding: 10px;
+    margin: 0px;
+ }
+ .professional{
+ 	padding:0px;
+ 	font-weight: normal;
+ }
+ #header{
+	color:black; 
+	text-align: center;
+	margin: 0px;
+}
+ .education{
+ 	padding:0px;
+ 	font-weight: normal;
+ 	margin:0px;
+}
+.otheractivities{
+ 	font-weight: normal;
+}
