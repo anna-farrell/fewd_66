@@ -4,8 +4,8 @@ body{
 	border-style: dashed;
     border-width: 5px;
     padding: 20px;
-    font-family: 'Open Sans';
-    margin:20px;
+    font-family:'Open Sans';
+    margin:40px 100px;
     font-size: 10pt
 }
 h3{
@@ -14,14 +14,15 @@ h3{
 	margin:0px;
 }
 ul{
-	list-style-type: circle;
 	font-size: 10pt;
-    padding: 10px;
     margin: 0px;
+    padding:0px;
+    list-style-type: none;
  }
  .professional{
- 	padding:0px;
+ 	padding:0px 0px 10px 0px;
  	font-weight: normal;
+ 	list-style-type: circle;
  }
  #header{
 	color:black; 
@@ -29,10 +30,12 @@ ul{
 	margin: 0px;
 }
  .education{
- 	padding:0px;
+ 	padding:0px 0px 10px 0px;
  	font-weight: normal;
  	margin:0px;
 }
 .otheractivities{
+ 	 padding:0px 0px 10px 0px;
  	font-weight: normal;
+ 	list-style-type: circle;
 }
