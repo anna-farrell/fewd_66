@@ -1,0 +1,33 @@
+h1{
+	font-family: 'Lora', serif;
+	text-align:  center;
+} 
+p{
+	text-align: center;
+	font-family: 'Lora' serif;
+	padding-bottom: 10px
+}
+nav{
+	font-family: 'Lora', serif;
+	text-align: center;
+	padding-bottom:10px;
+}
+img{
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+body{
+	font-family: 'Lora', serif;
+	text-align: center;
+}
+h3{
+	font-family: 'Lora', serif;
+	text-align: center;
+}
+h2 {font-family: 'Lora', serif;
+text-align: center;
+}
+link {
+	padding-bottom: 10px
+}
