@@ -1,0 +1,16 @@
+.nature{
+	max-width:100%;
+	height:700px;
+	background-image: url('https://placeimg.com/1000/1000/nature');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.img1{
+	max-width:100%;
+	height:auto;
+}
+.img2{
+	max-width:100%;
+	height:auto;
+}
