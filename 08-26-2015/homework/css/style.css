@@ -1,99 +1,104 @@
+body{
+font-family: 'Open Sans', sans-serif;
+}
 
-/*I struggled! (I also didn't have any time to work through it)*/
-/*
-Project Name: Blank Template
-Client: Relaxr
-Author: Anna Farrell
-Developer @GA in NYC
-*/
-
-/******************************************
-/* SETUP
-/*******************************************/
-
-/* Box Model Hack */
-* {
-     -moz-box-sizing: border-box; /* Firexfox */
-     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
-     box-sizing: border-box; /* IE */
-}
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-.clear {
-  clear: both;
-}
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
-.relaxr{
-  font-family: Open Sans, Arial, sans-serif;
-  font-weight:bold;
-  font-size: 24pt;
-  text-align: left;
-  font-style: bold;
-  vertical-align: top;
-  padding: 20px;
-}
-body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Open Sans, Arial, sans-serif;
-}
-header{
-     background: url(/images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-     background-size: cover;
-     max-width: 100%;
-     height:auto;
-     color:white;
-}
-#container {
-  font-family: open sans, sans-serif
-  width: 100%;
-  margin: auto;
-  height: 2000px;
-  text-align: center;
-}
-.h2{
-  font-size: 20px;
-}
 .header{
-  padding: 1000px;
+  height:700px;
+  color: white;
+  text-align: center;
+  background-image: url(/images/header_bg.jpg);
+  background-size: cover;
+  background-position: left;
+  width:100%;
 }
 
-.benefits{
+.logo{
+  font-size: 60px;
+  font-weight: bold;
+  text-align: left;
+  padding: 30px 30px;
+}
+
+.header h2{
+  text-align: center;
+  font-size: 30px;
+  padding: 30px;
+}
+.cta{
+  background-color: yellow;
+  padding: 15px 30px;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: yellow;
+  text-decoration: none;
+  color: black;
   font-size: 20px;
 }
-.name{
-  font-family: Open Sans, sans-serif;
-  font-weight: semi-bold;
-  font-size: 18px;
-  text-align:center;
+.content{
+  text-align: left;
+  height: 250px;
+  padding: 50px;
+  width: 400px;
+  font-weight: 300px;
 }
+.benefits{
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+ul{
+  list-style: disc;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-weight: 300;
+}
+
 .footer{
-  background-image: url(".images/testimonial_bg.jpg") no-repeat center top, blue;
-  max-width:100%;
-}
-.quote{
-  font-family:Open Sans, sans-serif;
-  font-style: italic;
+  background-image: url();
+  height: 200px;
+  background-size: cover;
+  background-position: left;
+  width:100%;
   text-align: center;
-  font-size:18px;
 }
-.signup{
-  font-weight:bold;
-  font-size:  12px; 
-  border:5px;
-  padding: 5px;
+
+.quote{
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300;
+  width: 325px;
+  margin:auto;
+  position: center;
+}
+
+.yellow{
+  background-color: yellow;
+  height: 100px;
+}
+.cta2{
+  background-color: blue;
+  padding: 15px 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  border-color: yellow;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.name{
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.copyright{
+  text-align: center;
+}
+
+.bottom{
+  height: 300px;
 }
