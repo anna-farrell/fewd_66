@@ -1,0 +1,28 @@
+body{
+  font-family:Inconsolata;
+}
+h1{
+  text-align:center;
+}
+.address{
+  float:left;
+  width:30%;
+  margin: 10px;
+}
+.images{
+  float:left;
+  width:69%
+}
+
+.dropped{
+	width:305px;
+	height:230px;
+}
+
+.dropped:hover {
+    opacity: 1.0;
+}
+
+.images {
+	padding:10px;
+}
