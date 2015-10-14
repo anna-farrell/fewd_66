@@ -1,0 +1,91 @@
+.top{
+  text-decoration:none;
+  color: black;
+}
+body{
+  text-align: center;
+  font-family: 'Inconsolata';
+}
+span.text-content {
+  font-size:60px;
+  color: black;
+  cursor: pointer;
+  height: 150px;
+  vertical-align: bottom;
+}
+
+.photos{
+  margin:20px;
+}
+
+span.text-content span {
+  text-align: center;
+}
+
+.illustrations, div:hover span.text-content {
+  opacity: 1;
+}
+
+span.text-content {
+  width:100%;
+  color: white;
+  cursor: pointer;
+  opacity: 0;
+  -webkit-transition:cover opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+#pretzel, #watermelon, #pickles, #rubberglove, #fork-tomato, #drive-thru, #milkshake{
+  height:1000px;
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  o-background-size: cover;
+  background-size: cover;
+}
+
+#rubberglove{
+ background-image:   url(http://lorempixel.com/400/200);
+ background-color: #cecece;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+#pretzel{
+  background-image:   url(http://lorempixel.com/400/200);
+  background-color: #cecece;
+}
+
+#pickles{
+  background-image:   url(http://lorempixel.com/400/200);
+  background-color: #cecece;
+}
+
+#watermelon{
+  background-image:   url(http://lorempixel.com/400/200);
+  background-color: #cecece;
+}
+
+#fork-tomato{
+  background-image:   url(http://lorempixel.com/400/200);
+  background-color: #cecece;
+}
+
+#drive-thru{
+  background-image:   url(http://lorempixel.com/400/200);
+  background-color: #cecece;
+}
+
+#milkshake{
+  background-image:   url(http://lorempixel.com/400/200);
+  background-color: #cecece;
+}
+
+#about {
+  margin: 15px 75px;
+  height:200px
+}
