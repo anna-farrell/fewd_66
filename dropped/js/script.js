@@ -19,8 +19,46 @@ function smoothScrollJump(event) {
     }, 1000);
 }
 
+// $(function() {
+            
+//     $( '#ri-grid' ).gridrotator({
+//         rows: 8,
+//         columns: 15,
+//         step: 'random',
+//         animType: 'random',
+//         animSpeed: 500,
+//         interval: 2000
+//     });        
+// });
+
+    
 $(function() {
             
-    $( '#ri-grid' ).gridrotator();
-
+    $( '#ri-grid' ).gridrotator( {
+        rows : 3,
+        columns : 4,
+        maxStep : 5,
+        interval : 2000,
+        // w1024 : {
+        //     rows : 5,
+        //     columns : 6
+        // },
+        // w768 : {
+        //     rows : 5,
+        //     columns : 5
+        // },
+        // w480 : {
+        //     rows : 6,
+        //     columns : 4
+        // },
+        // w320 : {
+        //     rows : 7,
+        //     columns : 4
+        // },
+        // w240 : {
+        //     rows : 7,
+        //     columns : 3
+        // },
+    } );
+            
 });

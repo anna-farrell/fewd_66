@@ -7,11 +7,15 @@ body{
   font-family: 'Inconsolata';
 }
 span.text-content {
-  font-size:60px;
+  font-size:20px;
   color: black;
   cursor: pointer;
   height: 150px;
   vertical-align: bottom;
+}
+
+.ri-grid {
+  width: 100%;
 }
 
 .photos{
@@ -45,44 +49,38 @@ span.text-content {
   background-size: cover;
 }
 
-#rubberglove{
- background-image:   url(http://lorempixel.com/400/200);
- background-color: #cecece;
-}
-
 nav a{
   text-decoration: none;
   color: black;
 }
 
+
+#rubberglove{
+ background-image: url("images/illustrations/yellow_glove-01.jpg");
+}
+
 #pretzel{
-  background-image:   url(http://lorempixel.com/400/200);
-  background-color: #cecece;
+  background-image:   url("images/illustrations/pretzel-01.jpg");
 }
 
 #pickles{
-  background-image:   url(http://lorempixel.com/400/200);
-  background-color: #cecece;
+  background-image:   url("images/illustrations/dropped_crayon.jpg");
 }
 
 #watermelon{
-  background-image:   url(http://lorempixel.com/400/200);
-  background-color: #cecece;
+  background-image:   url("images/illustrations/watermelon_bag_web_02.jpg");
 }
 
 #fork-tomato{
-  background-image:   url(http://lorempixel.com/400/200);
-  background-color: #cecece;
+  background-image:   url("images/illustrations/fork_tomato_01-01.jpg");
 }
 
 #drive-thru{
-  background-image:   url(http://lorempixel.com/400/200);
-  background-color: #cecece;
+  background-image:   url("images/illustrations/chicken_nuggets_fries_web.jpg");
 }
 
 #milkshake{
-  background-image:   url(http://lorempixel.com/400/200);
-  background-color: #cecece;
+  background-image:   url("images/illustrations/dropped_milkshake_01_web.jpg");
 }
 
 #about {

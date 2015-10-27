@@ -21,14 +21,14 @@ function smoothScrollJump(event) {
 
 $(function() {
             
-    $( '#ri-grid' ).gridrotator({
+    $('#ri-grid').gridrotator({
         rows:4,
         columns:5,
         step: 'random',
-        maxStep: 5,
+        maxStep: 3,
         animType: 'random',
         animSpeed:500,
         interval:1500
-    })
+    }) 
 
 });

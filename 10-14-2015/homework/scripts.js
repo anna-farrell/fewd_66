@@ -13,7 +13,7 @@
 
 // Button click event to get data
 $('button').on('click', americanize);
-
+$('body').css('background-image', 'url("http://lorempixel.com/400/200')
 // Function to Americanize the Celcius value
 function americanize(event) {
 
@@ -32,10 +32,12 @@ function convertTemp(num) {
     var newTemp = num * 1.8 + 32;
     console.log(newTemp);
     updateHtmlTemp(newTemp);
- if (newTemp < 32) {
-    $('body').css('background-color', 'blue')
-} else if (newTemp < 60) { 
-   $('body').css('background-color', 'yellow');
+
+    
+ if (newTemp < 90) {
+$('body').css('background-image', 'url("http://lorempixel.com/400/200')
+} else if (newTemp < 90 && num >80 ) { 
+$('body').css('background-color', 'yellow');
 } else {
    $('body').css('background-color', 'red');
 }
@@ -44,5 +46,11 @@ function convertTemp(num) {
 function updateHtmlTemp(num) {
     $('.tempFahrenheit').html(num);
     $('input').val('');
+}
+
+switch (expression) {
+    case expression:
+        break:
+    default:
 }
 
